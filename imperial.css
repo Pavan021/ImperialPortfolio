@@ -1,0 +1,610 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html,body
+{
+    /* width: 100%;
+    /* overflow-x: hidden; */
+}
+
+/* banner starts */
+
+.banner
+{
+   
+    height: 600px ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.877)), 
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    backgroud-size:cover;
+    background-attachment: scroll;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.banner-content
+{
+    text-align: center;
+}
+
+.banner .heading-1 
+{
+    font-family:Segoe Script;
+    font-size:85px;
+}
+
+.banner .heading-2
+{
+    font-size:45px ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner p
+{
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.banner .btn1, .banner .btn2
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px ;
+    border-radius: 3px;
+    transition:background-color .5s,border .5s ;
+    margin:10px;
+
+
+}
+
+.banner .btn1
+{
+    background-color:rgb(3, 220, 228);
+    margin-right: 10px;
+    
+
+}
+
+.banner .btn1:hover
+{
+    border:2px solid white;
+    background-color: transparent;
+
+}
+
+.banner .btn2 
+{ 
+     border: 2px solid white;
+    
+}
+
+.banner .btn2:hover
+{
+   background-color: rgb(3, 220, 228);  
+   border: 2px solid rgb(3, 220, 228);  
+  
+}
+
+/* banner ends */
+
+/* navbar starts */
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 7px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 101px;
+
+}
+
+nav ul a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 100;
+    transition: color .5s;
+}
+
+nav ul a:hover
+{
+    color: rgb(3, 220, 228);
+}
+
+nav ul li
+{
+    display: inline;
+}
+
+
+nav ul
+{
+    display:inline;
+    margin-left: 370px;
+}
+
+
+.brand-logo
+{
+    font-family: Segoe Script ;
+    font-size: 54px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: 143px;
+}
+
+/* navbar ends */
+
+/* about us starts */
+.aboutus 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+}
+
+.aboutus .aboutus-h1, .aboutus .aboutus-para,.aboutus hr
+{
+    text-align: center;
+}
+
+.aboutus .aboutus-h1
+{
+    font-size: 40px;
+}
+
+.aboutus hr
+{
+    width: 60px;
+    height: 6px;
+    background-color: cyan;
+    border: none;
+    margin: 20px auto;
+    
+}
+
+.aboutus-child
+{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus-img
+{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 20px;
+
+}
+
+.aboutus-img img
+{
+    height: auto;
+    width: 100%;
+}
+
+.aboutus-content
+{
+    /* border: 2px solid orange; */
+    width: 50%;
+    margin: 20px;
+}
+
+.aboutus-content h1
+{
+    margin-bottom: 20px;
+}
+
+.aboutus-content p
+{
+line-height: 22px;
+}
+
+.aboutus p
+{
+    color: grey;
+}
+
+
+/* about us ends */
+
+
+/* services starts */
+
+.services
+{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.829),rgba(255, 255, 255, 0.828)),
+     url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/services-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.services .services-h1,.services .services-para , .services hr
+{
+    text-align: center;
+}
+
+.services hr
+{
+   width: 60px;
+   height: 6px;
+   background-color: cyan;
+   margin:20px auto;
+   border: none;
+}
+
+.services-para
+{
+    color: grey;
+}
+
+.services-child
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:20px ;
+    align-items: center;
+    
+
+}
+
+.services-info
+{
+    /* border: 2px solid green; */
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content:space-around; 
+    align-items:flex-start;
+    /* flex start doubt----------- */
+    padding: 20px;
+   
+    
+}
+
+.services-icon
+{
+    margin: 5px;
+    flex-basis: 150px;
+    /* flex basis doubt---------- */
+    margin-top: 35px;
+}
+
+.services-content
+{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.services-icon i
+{
+    /* border: 8px solid blue; */
+    width: 80px;
+    height: 80px;
+    background-color: #03C4EB;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 24px 26px;
+    border:2px solid #03C4EB;
+    transition:all .5s;
+    color: white;
+}
+
+.services-info:hover .services-icon i
+{
+    background-color: transparent;
+    border:2px solid #03C4EB;
+    color: #03C4EB;
+}
+
+.services-content h1
+{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.services-content p
+{
+    color: gray;
+}
+/* services ends */
+
+
+/* subscribe starts */
+
+.subscribe
+{
+    border: 3px solid yellow;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.623)),
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/subscribe-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-text
+{
+    margin:80px;
+    width: 650px;
+}
+
+.subscribe-btn
+    {
+        margin: 80px;
+    }
+
+.subscribe-btn button
+    {
+        font-size: 18px;
+        font-weight: 450;
+        background:transparent;
+        color: white;
+        border: 2px solid white;
+        padding: 7px 20px;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        transition: all .5s;
+        width: 200px;
+        text-align: center;
+    }
+
+    .subscribe-btn button:hover
+    {
+        background-color:#03C4EB ;
+        border: 2px solid #03C4EB;
+    }
+    .subscribe-text h1
+    {
+        margin-bottom: 20px;
+    }
+    .subscribe-text p
+    {
+        font-size: 20px;
+    }
+
+/* subscribe ends */
+
+/* PORTFOLIO START */
+.portfolio
+{
+    margin:70px ;
+
+}
+.portfolio h1,.portfolio p,.portfolio hr
+{
+    text-align: center;
+}
+.portfolio hr
+{
+    background-color:#03C4EB  ;
+    width: 80px;
+    height: 6px;
+    border: none;
+    margin: 20px auto; 
+}
+.portfolio-child
+{
+   
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.portfolio-img
+{
+   
+    height: 300px;
+    width: 360px;
+    margin: 18px;
+    position: relative;
+
+}
+.portfolio-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.img-content
+{
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.726);
+    font-weight: bold;
+    text-align: center;
+    visibility: hidden;
+    transition: all .7s;    
+}
+.portfolio-img:hover .img-content
+{
+    visibility: visible;
+}
+/* PORTFOLIO ENDS */
+
+/* Testimonials starts */
+.testimonials
+{
+    background-color: rgba(211, 211, 211, 0.205);
+    padding: 20px 10px;
+}
+.testimonials h1,.testimonials p,.testimonials hr
+{
+    text-align: center;
+}
+.testimonials hr
+{
+    background-color:#03C4EB  ;
+    width: 80px;
+    height: 6px;
+    border: none;
+    margin: 20px auto;
+}
+
+.testiminial-child
+{
+    margin: 80px;
+    width: 1170px;
+
+}
+.testimonial-content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial-content .image
+{
+    width: 350px;
+
+}
+.testimonial-content .image img
+{
+    width: 100%;
+    border-radius: 100%;
+    border: 6px double white;
+}
+.testimonial-content .text
+{
+    padding: 60px;
+    padding-top: 100px;
+    font-size: 17px;
+    background-color: white;
+    margin: 40px;
+    color: gray;
+}
+.testimonial-content p
+{
+    margin-top: -48px;
+}
+.fa-quote-left,.fa-quote-right
+{
+    font-size: 30px;
+    color: rgba(173, 216, 230, 0.609);
+}
+.testimonial-content .image p
+{
+    margin-top: 17px;
+}
+.testimonial-content .image h2
+{
+    color: rgb(0, 195, 255);
+}
+
+
+/* testimonials ends */
+
+/* contactus starts */
+.contactus
+{
+    background-color: rgba(211, 211, 211, 0.205);
+    padding: 20px 0px;
+}
+.contactus h1,.contactus p,.contactus hr
+{
+    text-align: center;
+}
+.contactus hr
+{
+    background-color:#03C4EB  ;
+    width: 80px;
+    height: 6px;
+    border: none;
+    margin: 20px auto;
+}
+.contactus-child
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.contactus-address
+{
+    width: 500px;
+    display: flex;
+    justify-content: end;
+}
+.contactus-form
+{
+    width: 600px;
+}
+.contactus-inputs
+{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.contactus-inputs div,.contactus-inputs input,.contactus-inputs textarea,.contactus-inputs button
+{
+    width: 100%;
+}
+.contactus-inputs input,.contactus-inputs textarea
+{
+    margin: 8px;
+    padding: 8px 10px;
+    border:1px solid rgba(128, 128, 128, 0.315);
+    outline: none;
+}
+.contactus-inputs input:focus,.contactus-inputs textarea:focus
+{
+    border: 1px solid #03C4EB;
+}
+.contactus-inputs button
+{
+    width: 150px;
+    padding: 10px 2px;
+    background-color: #03C4EB;
+    color: white;
+    border: none;
+    margin-left: 150px;
+}
+.contactus-address p
+{
+    font-size: 20px;
+}
+
+.fa-map-marker-alt,.fa-envelope,.fa-mobile
+{
+    color: #03C4EB;
+    font-size: 35px;
+}
+::placeholder
+{
+    font-size: 20px;
+}
+/* contactus ends */
+© 2022 GitHub, Inc.
+Terms
+Privacy
